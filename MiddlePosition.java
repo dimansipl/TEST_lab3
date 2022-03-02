@@ -110,7 +110,7 @@ public class MiddlePosition
         {
            
             MiddlePosition otherPosition = (MiddlePosition)other;
-            
+   //commit 2         
          
             return _cellPosition.equals(otherPosition._cellPosition) && _direction.equals(otherPosition._direction);
         }
