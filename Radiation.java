@@ -19,7 +19,7 @@ public class Radiation extends AbstractCharacteristic
     @Override
     public Color drawColor()
     {
-        return new Color(255, 255, 0, 60);
+        return new Color(255, 255, 0, 60);//first commit to vanda
     }
 
     @Override
