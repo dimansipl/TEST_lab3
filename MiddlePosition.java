@@ -21,7 +21,7 @@ public class MiddlePosition
         if(!cellPos.isValid())
         {
             
-            throw new RuntimeException("ERROR: cell position is not valid");
+            throw new RuntimeException("FATAL ERROR: cell position is not valid");
         }    
         
         _cellPosition = cellPos;
