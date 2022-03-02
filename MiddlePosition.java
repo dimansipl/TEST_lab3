@@ -103,7 +103,7 @@ public class MiddlePosition
 	}
         
 
-    
+//osipov2.1    
     public boolean equals(Object other)
     {
         if(other instanceof MiddlePosition)
