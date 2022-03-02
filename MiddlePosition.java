@@ -71,7 +71,7 @@ public class MiddlePosition
         throw new RuntimeException();
         //return null;
     }
-
+//commit 3
     public boolean hasNext(Direction direct){
 	return _cellPosition.hasNext(direct) || _direction.isOpposite(direct);
     }
