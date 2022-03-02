@@ -15,13 +15,13 @@ public class MiddlePosition
         return _cellPosition;
     }
     
-
+//commit #1
     public MiddlePosition(CellPosition cellPos, Direction direct)
     {
         if(!cellPos.isValid())
         {
             
-            throw new RuntimeException("ERROR: cell position is not valid");
+            throw new RuntimeException("JEBANY FATAL ERROR: cell position is not valid");
         }    
         
         _cellPosition = cellPos;
@@ -71,7 +71,7 @@ public class MiddlePosition
         throw new RuntimeException();
         //return null;
     }
-
+//commit 3
     public boolean hasNext(Direction direct){
 	return _cellPosition.hasNext(direct) || _direction.isOpposite(direct);
     }
@@ -103,14 +103,14 @@ public class MiddlePosition
 	}
         
 
-//osipov2.1    
+    
     public boolean equals(Object other)
     {
         if(other instanceof MiddlePosition)
         {
            
             MiddlePosition otherPosition = (MiddlePosition)other;
-            
+   //commit 2         
          
             return _cellPosition.equals(otherPosition._cellPosition) && _direction.equals(otherPosition._direction);
         }
